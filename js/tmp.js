@@ -77,22 +77,32 @@ jQuery(function($) {
 	$(window).on('scroll', function(){
 		if ( $(window).scrollTop() > 300 ) {
 			$('.header-top').addClass('navbar-fixed');
+			$('#logo-redondo').hide();
+			$('#logo-verde').show();
 		} else {
 			$('.header-top').removeClass('navbar-fixed');
+			$('#logo-redondo').show();
+			$('#logo-verde').hide();
 		}
 	});
 }); 
 
 /* ----------------------------------------------------------- */
-/*  Alto-col
+/*  Ejecutar funciones en ready y en resize
 /* ----------------------------------------------------------- */
 
 $(document).ready(function(){
 	altoFila();
+	cambiarLogo();
 	$(window).resize(function() {
 		altoFila();
+		cambiarLogo();
 	});
 });
+
+/* ----------------------------------------------------------- */
+/*  Alto-col
+/* ----------------------------------------------------------- */
 
 function altoFila() {
 	$('.welcome-row').each(function(){  
@@ -118,3 +128,21 @@ function altoFila() {
 /*  ./Smoth Scroll
 /* ----------------------------------------------------------- */
 
+
+/* ----------------------------------------------------------- */
+/*  ./cambiar por logo pequeño
+/* ----------------------------------------------------------- */
+function cambiarLogo() {
+	var width = $(window).width();
+	var url = window.location.href;
+	if (width <= 1024) { 
+		/* $("#logo-redondo img").attr("src", url +"wp-themes/images/logo_75.png");		 */
+		$('#logo-redondo img').attr('src',function(index,attr){
+		      return attr.replace('logo_redondo','tucaso_phone');
+		});
+	}else {
+		$('#logo-redondo img').attr('src',function(index,attr){
+		      return attr.replace('tucaso_phone','logo_redondo');
+		});
+	}
+}

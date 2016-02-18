@@ -20,18 +20,10 @@ get_header(); ?>
 		<div class="container welcome-row">
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 welcome-left column">
 				<div class="row welcome-mensaje">
-					<h3>Bienvenido a tucaso.cl</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices eleifend elit, 
-						vel mollis felis egestas sed. Ut suscipit odio vel urna maximus ultricies. Sed est nisl, 
-						egestas a ultrices vitae, mattis ut quam. Cras at sodales ligula. Cum sociis natoque penatibus 
-						et magnis dis parturient montes, nascetur ridiculus mus. Integer feugiat ligula nec tellus 
-						vehicula congue. Donec vehicula suscipit lectus.
-					</p>
-					<p class="text-right">
-						<div class="hea-rgt">
-							<a href="#">Leer más</a>
-						</div>
-					</p>
+				<?php if ( have_posts() ) : ?>
+					<?php while ( have_posts() ) : the_post(); ?>
+						<?php the_content(); ?>
+					<?php endwhile; endif; ?>					
 				</div>
 			<div class="clearfix"></div>
 			</div>

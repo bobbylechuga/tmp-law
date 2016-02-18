@@ -29,10 +29,12 @@
 <!--header-top-starts-->
 	<div class="header-top">
 		<div class="container">
-			<div class="head-main">
-				<h1><a href="index.html">LAW</a></h1>
+			<div id="logo-redondo" class="head-main">
+				<a href="index.html"><img class="logo-redondo" src="<?php echo get_template_directory_uri(); ?>/images/logo_redondo.png"></a>
 			</div>
-			
+			<div id="logo-verde" class="head-main">
+				<a href="index.html"><img class="logo-redondo" src="<?php echo get_template_directory_uri(); ?>/images/logo_75.png"></a>
+			</div>
 			<div class="hea-rgt">
 				<?php if (dynamic_sidebar('top1')); {  } ?>
 			</div>
