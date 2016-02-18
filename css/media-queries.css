@@ -37,8 +37,16 @@
     .navbar-header {
         float:none;
     }
+    
 }
 
 @media (min-width: 768px) {
+	
+}
+
+
+/*  EXPERIMENTAL */
+
+@media (min-width: 1024px) and (max-width: 1200px) {
 	
 }

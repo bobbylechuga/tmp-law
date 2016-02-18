@@ -29,7 +29,7 @@ get_header(); ?>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 welcome-right column">
 				<div class="row">
-					<span class="service-icon"><i class="fa fa-code"></i></span>
+					<span class="service-icon"><i class="icon-anulidad"></i></span>
 					<div class="service-content">
 						<h4>Legal Experties</h4>
 						<p class="hidden-xs hidden-sm">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.</p>
@@ -37,7 +37,7 @@ get_header(); ?>
 					</div>
 				</div>	
 				<div class="row">
-					<span class="service-icon"><i class="fa fa-code"></i></span>
+					<span class="service-icon"><i class="icon-accidente_laboral"></i></span>
 					<div class="service-content">
 						<h4>Legal Experties</h4>
 						<p class="hidden-xs hidden-sm">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.</p>
@@ -45,7 +45,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="row">
-					<span class="service-icon"><i class="fa fa-code"></i></span>
+					<span class="service-icon"><i class="icon-autodespido"></i></span>
 					<div class="service-content">
 						<h4>Legal Experties</h4>
 						<p class="hidden-xs hidden-sm">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.</p>
@@ -53,7 +53,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="row">
-					<span class="service-icon"><i class="fa fa-code"></i></span>
+					<span class="service-icon"><i class="icon-despido_injustificado"></i></span>
 					<div class="service-content">
 						<h4>Legal Experties</h4>
 						<p class="hidden-xs hidden-sm">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.</p>
@@ -61,7 +61,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="row">
-					<span class="service-icon"><i class="fa fa-code"></i></span>
+					<span class="service-icon"><i class="icon-tutela"></i></span>
 					<div class="service-content">
 						<h4>Legal Experties</h4>
 						<p class="hidden-xs hidden-sm">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.</p>
