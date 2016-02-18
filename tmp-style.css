@@ -188,3 +188,16 @@ h4 {
 .footer {
   margin-top: 60px;
 }
+
+/* Ajustes*/
+.correccion-padding {
+    padding-left: 30px;
+}
+
+.page-builder {
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+
+/* */
