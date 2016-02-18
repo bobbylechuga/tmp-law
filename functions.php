@@ -136,8 +136,8 @@ add_action( 'wp_enqueue_scripts', '_s_scripts' );
 
 
 function load_fonts() {
-        wp_register_style('law-open', 'https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700|Six+Caps');
-        wp_enqueue_style( 'law-open');
+        wp_register_style('et-googleFonts', 'https://fonts.googleapis.com/css?family=Anton|Roboto+Condensed:400,400italic');
+        wp_enqueue_style( 'et-googleFonts');
 }
 add_action('wp_print_styles', 'load_fonts');
 

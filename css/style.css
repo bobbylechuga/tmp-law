@@ -4,17 +4,20 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+/*
 @font-face {
-    font-family: 'RobotoSlab-Regular';
-    src:url(../fonts/RobotoSlab-Regular.ttf) format('truetype');
+    font-family: 'Anton';
+    src:url(../fonts/Anton.ttf) format('truetype');
 }
+*/
 html, body{
     font-size: 100%;
 	background:	#fff;
 }
 body {
 	font-size: 100%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+    color: #444647;
 }
 body a{
 	transition: 0.5s all ease;
@@ -25,6 +28,11 @@ body a{
 }
 p{
 	margin:0;
+    color: #444647;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Anton';
 }
 ul,label{
 	margin:0;
@@ -63,7 +71,7 @@ body a:hover{
 .navbar-default .navbar-nav > li > a {
     color: #9E6E4E;
     font-size: 1em;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'Anton';
 	padding: 10px 24px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -118,7 +126,7 @@ body a:hover{
     color: rgba(0, 0, 0, 0.74);
     font-size: 0.875em;
     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'Anton';
 }
 .search-bar input[type="submit"] {
     background: url(../images/search.png)no-repeat 0px 0px;
@@ -179,7 +187,7 @@ body a:hover{
     color:#9E6E4E;
     font-size: 1.5em;
     text-decoration: none;
-	 font-family: 'RobotoSlab-Regular';
+	 font-family: 'Anton';
 }
 .head-main h1  {
    margin:0;
@@ -207,7 +215,7 @@ body a:hover{
     font-size: 2.5em;
     margin: 20px 0 0 0;
     color: #190608;
-	 font-family: 'RobotoSlab-Regular';
+	 font-family: 'Anton';
 }
 .banner-text {
     padding: 11em 2em;
@@ -282,7 +290,7 @@ body a:hover{
     font-size: 2.5em;
     margin: 0 0 1.5em;
     color: #9E6E4E;
-	 font-family: 'RobotoSlab-Regular';
+	font-family: 'Anton';
 }
 .wel-lft {
     padding-left: 0;
@@ -324,7 +332,7 @@ body a:hover{
     font-size: 2em;
     margin: 0 0 1.5em;
     color: #9E6E4E;
-	 font-family: 'RobotoSlab-Regular';
+	 font-family: 'Anton';
 }
 .cases p {
     font-size: 1em;
@@ -341,13 +349,13 @@ body a:hover{
     font-size: 2em;
     margin: 0 0 1.5em;
     color: #9E6E4E;
-	 font-family: 'RobotoSlab-Regular';
+	 font-family: 'Anton';
 }
 .news h5 {
     font-size: 1.3em;
     margin: 0 0 1.5em;
     color: #190608;
-	 font-family: 'RobotoSlab-Regular';
+	 font-family: 'Anton';
 }
 .news p {
     font-size: 1em;
@@ -370,7 +378,7 @@ body a:hover{
 .footer h4 {
     font-size: 2em;
     color: #fff;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'Anton';
     margin: 0em 0 1em;
 }
 .cont-tp {
@@ -440,7 +448,7 @@ address {
     font-size: 2.5em;
     margin: 0 0 1.5em;
     color: #9E6E4E;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'Anton';
 }
 .clients p,.practice p,.resource p,.contact p {
     font-size: 1em;
@@ -452,14 +460,14 @@ address {
     font-size: 1.3em;
     margin: 1em 0;
     color: #9E6E4E;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'Anton';
 }
 .clients h4, .practice h4, .resource h4,.contact h4 {
     font-size: 1.3em;
     margin: 0em 0 1em;
     line-height: 1.3em;
     color: #9E6E4E;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'Anton';
 }
 .clients,.practice ,.resource ,.contact,.typo{
     padding:5em 0;
@@ -514,7 +522,7 @@ address {
     font-size: 4.5em;
     display: block;
     line-height: 1em;
-    font-family: 'RobotoSlab-Regular';
+    font-family: 'Anton';
 }
 .about1-bottom2 {
     margin-top: 3em;
@@ -535,7 +543,7 @@ address {
 }
 /*--practice--*/
 /*--contact--*/
-.contact-bottom input[type="text"], .contact-bottom textarea {
+.contact-bottom input[type="text"], .contact-bottom input[type="email"], .contact-bottom textarea {
     font-size: 1em;
     width: 80%;
     padding: 0.6em;
@@ -724,7 +732,7 @@ h3.title {
 	color:#9E6E4E;
 	font-size:2.5em;
 	margin:0;
-	font-family: 'RobotoSlab-Regular';
+	font-family: 'Anton';
 }
 .typo {
     padding: 5em 0;
