@@ -50,6 +50,9 @@ a{
 
 }
 
+.head-main {
+    width: 18%;
+}
 .navbar-fixed {
     opacity: 1;
     z-index: 99999;

@@ -34,7 +34,7 @@
 			</div>
 			
 			<div class="hea-rgt">
-				<a href="#">Get Appointment</a>
+				<?php if (dynamic_sidebar('top1')); {  } ?>
 			</div>
 			<div class="navigation">
 				 <nav class="navbar navbar-default" role="navigation">
@@ -49,12 +49,11 @@
 				<!--/.navbar-header-->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-					 <li class="active"><a href="index.html">Home</a></li>
-						<li><a href="practice.html">Practice</a></li>
-						<li><a href="clients.html">Clients</a></li>
-						<li><a href="resources.html">Resources</a></li>
-						<li><a href="typo.html">Typo</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="practice.html">Derecho Laboral</a></li>
+						<li><a href="practice.html">Derecho Civil</a></li>
+						<li><a href="clients.html">Derecho Comercial</a></li>
+						<li><a href="resources.html">Derecho del Consumidor</a></li>
+						<li><a href="typo.html">Contacto</a></li>
 					</ul>
 				</div>
 				<!--/.navbar-collapse-->

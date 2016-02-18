@@ -152,6 +152,8 @@ function crear_widget( $nombre, $id, $descripcion ) {
 		'after_title' => '</h4>'
 	));
 }
+
+crear_widget('Top Teléfono','top1','Se mostrará en el top de la página principal del sitio.');
 crear_widget('Footer 1','footer1','Se mostrará en el footer de la página principal del sitio.');
 crear_widget('Footer 2','footer2','Se mostrará en el footer de la página principal del sitio.');
 crear_widget('Footer 3','footer3','Se mostrará en el footer de la página principal del sitio.');

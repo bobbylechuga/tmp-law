@@ -942,7 +942,7 @@ h3.title {
 }
 }
 /*--responsive--*/
-@media(max-width:767px){
+@media(max-width:1024px){
 .navbar-toggle {
     padding: 9px 10px;
     margin-top: 28px;
