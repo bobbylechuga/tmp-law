@@ -152,6 +152,21 @@ h4 {
 
 /* ./ Call to action */
 
+
+/*   Grid Servicios */
+
+.cases h3 {
+    margin: 0 0 10px;
+}
+
+#pl-53 {
+    margin-bottom: 0px;
+}
+
+/* ./Grid Servicios */
+
+
+
 /* 404  */
 .f-left {
     float:left;
@@ -224,6 +239,11 @@ h4 {
 .page-builder {
     padding-left: 50px;
     padding-right: 80px;
+}
+
+.page-builder-home { 
+     padding-left: 25px;
+     padding-right: 25px;
 }
 
 
