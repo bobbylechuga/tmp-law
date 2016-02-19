@@ -71,7 +71,7 @@ body a:hover{
 .navbar-default .navbar-nav > li > a {
     color: #9E6E4E;
     font-size: 1em;
-    font-family: 'Anton';
+    font-family: 'Roboto Condensed';
 	padding: 10px 24px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -976,7 +976,7 @@ h3.title {
     border-color: #fff;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border-color: #fff;
+    border-color: #4E7D37;
 	background:#9E6E4E;
 }
 .navigation {
