@@ -14,16 +14,32 @@
  */
 
 get_header(); ?>
-	<?php get_template_part( 'template-parts/content', 'slide' ); ?>
+	<?php //get_template_part( 'template-parts/content', 'slide' ); ?>
+	<!-- banner-starts -->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-top">
+				<section class="slider">
+					<div class="flexslider">
+						<?php if ( have_posts() ) : ?>
+						<?php while ( have_posts() ) : the_post(); ?>
+							<?php the_content(); ?>
+						<?php endwhile; endif; wp_reset_postdata();?>
+					</div>
+				</section>			
+			</div>
+		</div>
+	</div>
+	<!--banner-end-->
 	<!-- welcome -->
 	<div class="welcome">
 		<div class="container welcome-row">
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 welcome-left column">
 				<div class="row welcome-mensaje">
-				<?php if ( have_posts() ) : ?>
-					<?php while ( have_posts() ) : the_post(); ?>
+					<?php query_posts('page_id=94'); ?>
+					<?php while (have_posts()) : the_post(); ?>
 						<?php the_content(); ?>
-					<?php endwhile; endif; ?>					
+					<?php endwhile; wp_reset_postdata(); ?>		
 				</div>
 			<div class="clearfix"></div>
 			</div>
