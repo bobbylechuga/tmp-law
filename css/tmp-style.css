@@ -1,8 +1,8 @@
 a {
   outline: none !important; }
 
-h2 {
-  font-family: "Roboto Condensed", sans-serif; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anton"; }
 
 .scroll-top-wrapper {
   position: fixed;
@@ -44,6 +44,13 @@ h2 {
 .hea-rgt a, .hvr-shutter-in-horizontal:before {
   background-color: #f77f08; }
 
+.hea-rgt a:hover {
+  background: #4e7d37; }
+
+.navbar-fixed .hea-rgt a:hover {
+  background: #ffffff;
+  color: #f77f08; }
+
 .head-main {
   width: 18%; }
 
@@ -62,13 +69,12 @@ h2 {
   -webkit-backface-visibility: hidden;
   box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11); }
 
-.navbar-nav .active {
-  border-top: 1px solid red;
-  padding-left: 30px; }
-
 .navbar-default .navbar-nav > li > a {
   color: #4e7d37;
   font-weight: 600; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #f77f08; }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {

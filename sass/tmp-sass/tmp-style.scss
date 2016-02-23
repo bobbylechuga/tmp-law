@@ -1,14 +1,9 @@
-$verde: #4e7d37;
-$alternativo:  #f77f08;
-$fondo: #444647;
-$fuente: 'Roboto Condensed', sans-serif;
-$fuente_alternativa: 'Anton';
-
+@import "variables.scss";
 a{
     outline: none !important;
  }
-h2 {
-    font-family: $fuente;
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fuente_alternativa;
 }
 .scroll-top-wrapper {
     position: fixed;
@@ -54,6 +49,16 @@ h2 {
 .hea-rgt a, .hvr-shutter-in-horizontal:before {    
     background-color: $alternativo; 
 }
+
+.hea-rgt a:hover {
+    background: $verde;
+
+}
+.navbar-fixed .hea-rgt a:hover {
+    background: #ffffff;
+    color: $alternativo;
+}
+
 .head-main {
     width: 18%;
 }
@@ -72,15 +77,14 @@ h2 {
     -webkit-backface-visibility: hidden;
     box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11);
 }
-.navbar-nav .active {
-    border-top: 1px solid red;
-    padding-left: 30px;
-}
+
 .navbar-default .navbar-nav > li > a {
     color: $verde;
     font-weight: 600;
 }
-
+.navbar-default .navbar-nav > li > a:hover {
+    color: $alternativo;
+}
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: $alternativo;
