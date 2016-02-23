@@ -1,0 +1,312 @@
+$verde: #4e7d37;
+$alternativo:  #337ab7;
+
+a{
+    outline: none !important;
+ }
+
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #777777;
+    color: #eeeeee;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+    background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+}
+/* Header */
+.header-top { 
+      
+
+}
+
+.head-main {
+    width: 18%;
+}
+.navbar-fixed {
+    opacity: 1;
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: $verde; 
+    -webkit-animation: fadeInDown 800ms;
+    -moz-animation: fadeInDown 800ms;
+    -ms-animation: fadeInDown 800ms;
+    -o-animation: fadeInDown 800ms;
+    animation: fadeInDown 800ms;
+    -webkit-backface-visibility: hidden;
+    box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11);
+}
+.navbar-fixed .navbar-collapse {
+    background: $verde;
+}
+
+.navbar-fixed .navbar-default {
+    background-color: $verde !important; 
+}
+.navbar-fixed .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default 
+.navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background: none;
+}
+#logo-verde {
+    display: none;
+}
+.logo-redondo, .logo-verde {
+    display: block;
+    margin: -8px 30px -13px 0;
+    position: absolute;
+    float: left;
+    z-index: 1;
+}
+
+
+/* Iconos */
+.service-icon {
+    margin-top: 10px;
+    padding-top: 3px;
+    float: left;
+    background: $verde;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms;
+}
+
+.service-content {
+    position: relative;
+    padding: 0;
+    margin-left: 85px;
+    overflow: hidden;
+}
+
+/* fin Iconos */
+
+.welcome-left {
+    display: table;
+    padding-right: 90px;
+}
+
+.welcome-mensaje {
+    display: table-cell;
+    vertical-align: middle;
+}
+/* Call to action */
+.callout-dark {
+    margin: 30px 0;
+    padding: 60px;
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+.callout-dark h1,
+h2,
+h3,
+h4 {
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.callout-dark p {
+    color: #333333;
+    font-size: 17px;
+}
+
+.callout-dark .btn {
+    margin-top: 50px;
+}
+
+/* ./ Call to action */
+
+
+/*   Grid Servicios */
+
+.cases h3 {
+    margin: 0 0 10px;
+}
+
+#pl-53 {
+    margin-bottom: 0px;
+}
+
+/* ./Grid Servicios */
+
+/* Alternativa GRID servicios */
+
+.main-content {
+    section {
+        padding: 60px 0;
+        position: relative;
+    }
+    .title {
+        margin: 0 0 20px 0;
+        line-height: normal;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+.video-embed img {
+    margin-top:20px;
+}
+.feature-icon {
+    color: #CF0204;
+    font-size: 32px;
+    display: inline-block;
+    padding: 10px 15px;
+    background: #ffffff;
+    top: -30px;
+    position: relative;
+}
+.feature-content {
+    padding: 0 10px 25px 10px;
+    margin-top: 20px;
+    border: 1px solid rgba(0,0,0,.15);
+    position: relative;
+    -webkit-transition: 350ms;
+    -moz-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms;
+    h3 {
+        font-size: 16px;
+        line-height: normal;
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+    h4 {
+        font-size: 16px;
+        margin: 0 0 10px 0;
+        color: #7C7C7C;
+    }
+}
+.text-center {
+    text-align: center;
+}
+.gap-40 {
+    padding-top: 40px;
+}
+/* Alternativa GRID servicios */
+/* 404  */
+.f-left {
+    float:left;
+}
+.f-right {
+    float:right;
+}
+.clear {
+    clear: both;
+    overflow: hidden;
+}
+#block_error {
+    width: 845px;
+    height: 384px;
+    border: 1px solid #cccccc;
+    margin: 72px auto 0;
+    margin-bottom: 80px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff url(http://www.ebpaidrev.com/systemerror/block.gif) no-repeat 0 51px;
+}
+#block_error div{
+    padding: 100px 40px 0 186px;
+}
+#block_error div h2{
+    font-size: 24px;
+    display: block;
+    padding: 0 0 14px 0;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 12px;
+    font-weight: normal;
+}
+/* ./ 404 */
+
+/* Paginas interiores: servicios */
+.banner-1{
+  margin-bottom: 40px;
+}
+
+.panel-default > .panel-heading, .panel-default {
+  border: none;
+  background: none;
+}
+
+.servicios a:before {
+  font-family: FontAwesome;
+  content: "\f101";
+  padding-right: 10px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: $verde;
+}
+
+/* */
+
+
+
+
+.footer {
+  margin-top: 60px;
+}
+
+/* Ajustes*/
+.correccion-padding {
+    padding-left: 30px;
+}
+
+.page-builder {
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+.page-builder-home { 
+     padding-left: 25px;
+     padding-right: 25px;
+}
+
+
+/* */

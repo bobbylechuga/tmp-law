@@ -71,6 +71,7 @@ get_header(); ?>
 	<!-- ./call  to action -->	
 
 	<!-- cases -->
+	<!--
 	<div class="cases page-builder-home">
 		<div class="container">
 			<?php query_posts('page_id=53'); ?>
@@ -78,7 +79,68 @@ get_header(); ?>
 				<?php the_content(); ?>
 			<?php endwhile; wp_reset_postdata(); ?>
 		</div>
-	</div>
+	</div>-->
+
+
+	<section id="main-content" class="main-content text-center">
+		<div class="container">
+			<div class="row text-center">
+				<h2>servicios</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+						<div class="video-embed">
+							<!-- Change the url -->
+							<img src="http://placehold.it/560x300" class="img-responsive">
+						</div>
+						<p class="video-desc">Our lawyers help injured workers recover compensation from on-the-job injuries arising from crane failure, fire and heavy equipment accident.</p>					
+				</div>
+
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<div class="feature-content box1 text-center">
+								<span class="feature-icon"><i class="icon-accidente_laboral"></i></span>
+								<h3>Automobile Negligence</h3>
+								<h4>Over $1,700,000</h4>
+								<a href="#">More Results <i class="fa fa-caret-right"></i></a>
+							</div>
+						</div><!--/ End 1st case -->
+						<div class="col-md-6 col-sm-12">
+							<div class="feature-content box1 text-center">
+								<span class="feature-icon"><i class="icon-accidente_laboral"></i></span>
+								<h3>Medical Negligence</h3>
+								<h4>$3,000,000</h4>
+								<a href="#">More Results <i class="fa fa-caret-right"></i></a>
+							</div>
+						</div><!--/ End 2nd case -->
+					</div><!-- Case Results 1st row end -->
+
+					<div class="gap-40"></div>
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<div class="feature-content box1 text-center">
+								<span class="feature-icon"><i class="icon-accidente_laboral"></i></span>
+								<h3>Automobile Negligence</h3>
+								<h4>Over $1,700,000</h4>
+								<a href="#">More Results <i class="fa fa-caret-right"></i></a>
+							</div>
+						</div><!--/ End 1st case -->
+						<div class="col-md-6 col-sm-12">
+							<div class="feature-content box1 text-center">
+								<span class="feature-icon"><i class="icon-accidente_laboral"></i></span>
+								<h3>Medical Negligence</h3>
+								<h4>$3,000,000</h4>
+								<a href="#">More Results <i class="fa fa-caret-right"></i></a>
+							</div>
+						</div><!--/ End 2nd case -->
+					</div><!-- Case Results 1st row end -->
+					
+			</div><!-- Row end -->
+		</div><!-- Container end -->
+	</section>
+
+
 	<!--
 	<div class="cases">
 		<div class="container">
