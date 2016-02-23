@@ -1,10 +1,15 @@
 $verde: #4e7d37;
-$alternativo:  #337ab7;
+$alternativo:  #f77f08;
+$fondo: #444647;
+$fuente: 'Roboto Condensed', sans-serif;
+$fuente_alternativa: 'Anton';
 
 a{
     outline: none !important;
  }
-
+h2 {
+    font-family: $fuente;
+}
 .scroll-top-wrapper {
     position: fixed;
     opacity: 0;
@@ -46,7 +51,9 @@ a{
       
 
 }
-
+.hea-rgt a, .hvr-shutter-in-horizontal:before {    
+    background-color: $alternativo; 
+}
 .head-main {
     width: 18%;
 }
@@ -65,6 +72,20 @@ a{
     -webkit-backface-visibility: hidden;
     box-shadow: 0px 1px 9px 1px rgba(0, 0, 0, 0.11);
 }
+.navbar-nav .active {
+    border-top: 1px solid red;
+    padding-left: 30px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: $verde;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: $alternativo;
+}
+
 .navbar-fixed .navbar-collapse {
     background: $verde;
 }
@@ -99,7 +120,7 @@ a{
     margin-top: 10px;
     padding-top: 3px;
     float: left;
-    background: $verde;
+    background: $alternativo;
     color: #fff;
     border-radius: 100%;
     font-size: 35px;
@@ -119,10 +140,28 @@ a{
     padding: 0;
     margin-left: 85px;
     overflow: hidden;
+    h4, a {
+        color: $verde;
+    }
+    a:hover, a:focus {
+        color: $alternativo;
+    }
 }
 
-/* fin Iconos */
+/* Slide */
+.banner-text {
+    background-color: rgba(255, 255, 255, 0.64);
+}
+.banner-text h2 {
+    font-family: $fuente;
+    color: $fondo;
+}
+/* .Slider */
 
+/* fin Iconos */
+.welcome h3 {
+    color: $verde;
+}
 .welcome-left {
     display: table;
     padding-right: 90px;
@@ -138,6 +177,13 @@ a{
     padding: 60px;
     color: #000000;
     background-color: #eeeeee;
+    .btn-default {
+        background-color: $alternativo;
+        color: #ffffff;
+    }
+    h1 {
+        color: $verde;
+    }
 }
 
 .callout-dark h1,
@@ -183,9 +229,17 @@ h4 {
         margin: 0 0 20px 0;
         line-height: normal;
     }
+    h2 {
+        color: $verde;
+        text-transform: uppercase;
+    }
     h3 {
         font-size: 24px;
         line-height: 32px;
+        color: $verde;
+    }
+    a {
+        color: $alternativo;
     }
 }
 
@@ -193,10 +247,10 @@ h4 {
     margin-top:20px;
 }
 .feature-icon {
-    color: #CF0204;
-    font-size: 32px;
+    color: $alternativo;
+    font-size: 45px;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 5px 15px;
     background: #ffffff;
     top: -30px;
     position: relative;
@@ -204,7 +258,7 @@ h4 {
 .feature-content {
     padding: 0 10px 25px 10px;
     margin-top: 20px;
-    border: 1px solid rgba(0,0,0,.15);
+    border: 1px solid $verde;
     position: relative;
     -webkit-transition: 350ms;
     -moz-transition: 350ms;
@@ -290,7 +344,14 @@ h4 {
 
 
 .footer {
-  margin-top: 60px;
+    background: $fondo;
+    margin-top: 60px;
+    .glyphicon {
+        color: #ffffff;
+    }
+    address, p {
+        color: #cccccc;
+    }
 }
 
 /* Ajustes*/

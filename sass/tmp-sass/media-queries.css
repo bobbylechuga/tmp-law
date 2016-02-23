@@ -1,0 +1,54 @@
+@media (min-width:1280px) {  
+	/*
+	.container {
+	    width: 970px;
+	}
+	*/
+	.call-contenido {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+	    width: 135px;
+	    word-wrap: break-word;
+	    text-align: center;
+	    font-family: 'Roboto Condensed';
+	}
+
+	.logo-redondo { 
+
+	}
+	.navbar-nav {
+	    margin-left: 150px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+    
+}
+
+@media (min-width: 768px) {
+	.navbar-nav {
+	    margin-left: 150px;
+	}
+}
+
+
+/*  EXPERIMENTAL */
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+	
+}
