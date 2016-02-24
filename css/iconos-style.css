@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('../fonts/icomoon.eot?66wst4');
-    src:    url('../fonts/icomoon.eot?66wst4#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?66wst4') format('truetype'),
-        url('../fonts/icomoon.woff?66wst4') format('woff'),
-        url('../fonts/icomoon.svg?66wst4#icomoon') format('svg');
+    src:    url('../fonts/icomoon.eot?z66tv1');
+    src:    url('../fonts/icomoon.eot?z66tv1#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?z66tv1') format('truetype'),
+        url('../fonts/icomoon.woff?z66tv1') format('woff'),
+        url('../fonts/icomoon.svg?z66tv1#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,19 +24,31 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-accidente_laboral:before {
+.icon-accidente_trabajo:before {
     content: "\e900";
 }
-.icon-anulidad:before {
+.icon-derecho_civil:before {
     content: "\e901";
 }
-.icon-autodespido:before {
+.icon-derecho_comercial:before {
     content: "\e902";
 }
-.icon-despido_injustificado:before {
+.icon-derecho_consumidor:before {
     content: "\e903";
 }
-.icon-tutela:before {
+.icon-derecho_laboral:before {
     content: "\e904";
+}
+.icon-despido_indirecto:before {
+    content: "\e905";
+}
+.icon-despido_injustificado:before {
+    content: "\e906";
+}
+.icon-nulidad:before {
+    content: "\e907";
+}
+.icon-tutela_laboral:before {
+    content: "\e908";
 }
 

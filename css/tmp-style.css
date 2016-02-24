@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #f77f08;
   color: #fff;
   border-radius: 100%;
-  font-size: 35px;
+  font-size: 42px;
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -146,6 +146,10 @@ h1, h2, h3, h4, h5, h6 {
 /* fin Iconos */
 .welcome h3 {
   color: #4e7d37; }
+.welcome .hea-rgt {
+  float: left;
+  position: relative;
+  left: 50%; }
 
 .welcome-left {
   display: table;
