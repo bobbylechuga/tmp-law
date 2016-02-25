@@ -35,6 +35,10 @@
 @media (min-width: 768px) {
   .navbar-nav {
     margin-left: 150px; } }
+@media (max-width: 1024px) {
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #4E7D37;
+    background: #ffffff; } }
 /*  EXPERIMENTAL */
 
 /*# sourceMappingURL=media-queries.css.map */

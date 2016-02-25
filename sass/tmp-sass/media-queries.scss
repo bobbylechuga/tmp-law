@@ -50,9 +50,16 @@
 	}
 }
 
+@media (max-width: 1024px) {  
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	    border-color: #4E7D37;
+	    background: #ffffff;
+	}
+}
 
 /*  EXPERIMENTAL */
 
 @media (min-width: 1024px) and (max-width: 1200px) {
 	
 }
+

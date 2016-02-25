@@ -45,7 +45,7 @@ $urlFeaturred = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbna
 </style>
 <div class="banner-1">
 </div>
-<div class="container correccion-padding" name="toTop" id="topPos">
+<div class="container correccion-padding affix-contenido" name="toTop" id="topPos">
 	
 		<?php while ( have_posts() ) : the_post(); ?>
 

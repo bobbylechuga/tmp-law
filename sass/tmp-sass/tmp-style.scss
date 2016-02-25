@@ -348,7 +348,11 @@ h4 {
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     background-color: $verde;
 }
-
+.affix-contenido { 
+    .panel-default p { 
+        margin-bottom: 2em;
+    } 
+}
 /* */
 
 

@@ -20,16 +20,16 @@ $(function(){
 				stopOn = $( document ).height()-( $( bottomElement ).offset().top)+($( this ).outerHeight() - $( this ).height()); 
 
 			// if the element doesn't need to get sticky, then skip it so it won't mess up your layout
-			if( (fromBottom-stopOn) > 200 ){
+			if( (fromBottom-stopOn) > 300 ){
 				// let's put a sticky width on the element and assign it to the top
 				$( this ).css('width', $( this ).width()).css('top', '').css('position', '');
 				// assign the affix to the element
 				$( this ).affix({
 					offset: { 
 						// make it stick where the top pixel of the element is
-						top: fromTop - 100,  /* --> Debe ser el mismo valor negativo */
+						top: fromTop - 150,  /* --> Debe ser el mismo valor negativo */
 						// make it stop where the top pixel of the bottom element is
-						bottom: stopOn + 560
+						bottom: stopOn + 400
 					}
 				// when the affix get's called then make sure the position is the default (fixed) and it's at the top
 				}).on('affix.bs.affix', function(){ $( this ).css('top', '100px').css('position', ''); }); /* --> Deben ser iguales */
@@ -54,7 +54,7 @@ $(function() {
 	  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 	  if (target.length) {
 		$('html,body').animate({
-		  scrollTop: target.offset().top - 150 /* --> Debe ser el mismo valor negativo */
+		  scrollTop: target.offset().top - 200 /* --> Debe ser el mismo valor negativo */
 		}, 1000);
 		return false;
 	  }
