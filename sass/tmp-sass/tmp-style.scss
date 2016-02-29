@@ -344,7 +344,19 @@ h4 {
   content: "\f101";
   padding-right: 10px;
 }
-
+.panel-body .btn-default {
+    background-color: #f77f08;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    .fa {
+        padding-right: 10px;
+    }
+    &:hover {
+        background-color: $verde;
+        color: ffffff;
+    }
+}
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     background-color: $verde;
 }
@@ -353,6 +365,9 @@ h4 {
         margin-bottom: 2em;
     } 
 }
+
+
+
 /* */
 
 

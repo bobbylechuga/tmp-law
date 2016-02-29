@@ -146,3 +146,16 @@ function cambiarLogo() {
 		});
 	}
 }
+
+
+/* ----------------------------------------------------------- */
+/*  Agregar el botón
+/* ----------------------------------------------------------- */
+
+$('.panel-body section').each(function(index) {
+    var $section = $(this);
+    //if (index > 1) {
+      var $newBtn = $("<div class='text-right'><a class='btn btn-default' href='/contactanos'><i class='fa fa-envelope-o'></i>Contáctanos</a></div>");
+      $section.append($newBtn);
+    //}
+});
