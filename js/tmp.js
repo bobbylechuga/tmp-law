@@ -1,5 +1,6 @@
 $ = jQuery;
 
+
 $("span.menu").click(function(){
 	$(" ul.navig").slideToggle("slow" , function(){
 	});
@@ -152,10 +153,16 @@ function cambiarLogo() {
 /*  Agregar el botón
 /* ----------------------------------------------------------- */
 
+var home = window.location.hostname;
+var contactosUrl  = "http://"+home+"/tucaso/contactanos"; 
+
+if (home.indexOf('tucaso.cl') >= 0) { 
+	contactosUrl = "http://"+home+"/contactanos"; 
+}
+
 $('.panel-body section').each(function(index) {
     var $section = $(this);
-    //if (index > 1) {
-      var $newBtn = $("<div class='text-right'><a class='btn btn-default' href='/contactanos'><i class='fa fa-envelope-o'></i>Contáctanos</a></div>");
+      var $newBtn = $("<div class='text-right'><a class='btn btn-default' href='"+contactosUrl+"'/'><i class='fa fa-envelope-o'></i>Contáctanos</a></div>");
       $section.append($newBtn);
-    //}
+      console.log (home);
 });
