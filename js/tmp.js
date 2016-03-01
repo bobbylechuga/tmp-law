@@ -149,9 +149,9 @@ function cambiarLogo() {
 }
 
 
-/* ----------------------------------------------------------- */
-/*  Agregar el botón
-/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/*  Agregar el botón contactanos (todas las páginas de servicios)
+/* ----------------------------------------------------------------- */
 
 var home = window.location.hostname;
 var contactosUrl  = "http://"+home+"/tucaso/contactanos"; 
@@ -164,5 +164,4 @@ $('.panel-body section').each(function(index) {
     var $section = $(this);
       var $newBtn = $("<div class='text-right'><a class='btn btn-default' href='"+contactosUrl+"'/'><i class='fa fa-envelope-o'></i>Contáctanos</a></div>");
       $section.append($newBtn);
-      console.log (home);
 });
